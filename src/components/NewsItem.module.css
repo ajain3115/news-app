@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.lhs{
+    width: 100px;
+    flex-shrink: 0;
+}
+.rhs{
+    flex-grow: 1;
+}
+.title{
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.title span{
+    font-size: 0.8em;
+    color: rgba(0,0,0,0.5);
+}
+.date{
+    color: rgba(0, 0, 0, 0.5);
+}
